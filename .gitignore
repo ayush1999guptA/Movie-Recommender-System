@@ -100,8 +100,8 @@ venv.bak/
 # mkdocs documentation
 /site
 
-# dataset
-the-movies-dataset/
-
 # mypy
 .mypy_cache/
+
+# dataset
+the-movies-dataset/
