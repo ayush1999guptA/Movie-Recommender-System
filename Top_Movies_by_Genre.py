@@ -32,7 +32,6 @@ def get_genres(x):
 def get_top(data, C):
     m = 500
     top = data[data['vote_count'] > 500]
-    print(C)
     top = top[['title','genres','vote_count','vote_average']]
     top['rating'] = (top['vote_count']/(top['vote_count']+m))*top['vote_average']+(m/(top['vote_count']+m))*C
     top = top.sort_values(by=['rating'], ascending=False)
