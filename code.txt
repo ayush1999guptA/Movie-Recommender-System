@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+#define long long int int 
+#define for(i=0;i<n;i++) f(n) 
+#include <stack>
+#include <queue>
+#include <map>
+using namespace std;
+const int maxn = 2e6 + 10;
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);	 
+    int i,j,k,l,n;
+    
+}
